@@ -25,3 +25,5 @@ Mondex is built using the following technologies:
 - **AdMob**: Google's mobile advertising platform for monetizing your app by displaying ads.
 
 - **LeakCanary (debug only)**: A memory leak detection library for Android, used in debug builds to automatically detect memory leaks and help identify and fix memory-related issues.
+
+![image1](https://github.com/SORAdeSONA/MonDex-pokedex/assets/91389428/1fadeead-2e6e-40c4-9efb-a311cc080c02)

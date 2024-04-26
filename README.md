@@ -26,7 +26,7 @@ Mondex is built using the following technologies:
 
 - **LeakCanary (debug only)**: A memory leak detection library for Android, used in debug builds to automatically detect memory leaks and help identify and fix memory-related issues.
 
-##Description 
+## Description 
 
 
 

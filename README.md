@@ -11,10 +11,10 @@ Mondex is your ultimate Pokédex companion for exploring and storing information
 
 ## Search for Pokémon, items, moves, and berries using a classic search or by categories.
 
+<img src="https://github.com/SORAdeSONA/MonDex-pokedex/assets/91389428/33ee745e-670c-472f-b100-11ea38545f91" width="200">
 
 ## Add Pokémon, items, moves, and berries to your default list or create your own customized lists to organize your findings.
 
-<img src="https://github.com/SORAdeSONA/MonDex-pokedex/assets/91389428/33ee745e-670c-472f-b100-11ea38545f91" width="200">
 <img src="https://github.com/SORAdeSONA/MonDex-pokedex/assets/91389428/92752f86-0bf9-409b-9361-de066d4f7f9d" width="200">
 
 ## Stack

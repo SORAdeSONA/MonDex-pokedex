@@ -26,10 +26,10 @@ Mondex is built using the following technologies:
 
 - **LeakCanary (debug only)**: A memory leak detection library for Android, used in debug builds to automatically detect memory leaks and help identify and fix memory-related issues.
 
-![image1](https://github.com/SORAdeSONA/MonDex-pokedex/assets/91389428/1fadeead-2e6e-40c4-9efb-a311cc080c02)
+![image1](https://github.com/SORAdeSONA/MonDex-pokedex/assets/91389428/1fadeead-2e6e-40c4-9efb-a311cc080c02){: width="300"}
 
-![image2](https://github.com/SORAdeSONA/MonDex-pokedex/assets/91389428/ff843009-800e-4c5e-b211-a23d50fdae42)
+![image2](https://github.com/SORAdeSONA/MonDex-pokedex/assets/91389428/ff843009-800e-4c5e-b211-a23d50fdae42){: width="300"}
 
-![image3](https://github.com/SORAdeSONA/MonDex-pokedex/assets/91389428/c10ba951-4f0a-4352-8c64-bec545a5e72c)
+![image3](https://github.com/SORAdeSONA/MonDex-pokedex/assets/91389428/c10ba951-4f0a-4352-8c64-bec545a5e72c){: width="300"}
 
 

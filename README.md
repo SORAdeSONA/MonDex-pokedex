@@ -1,3 +1,7 @@
+## License
+
+This project is licensed under the [GPL-3.0 License](https://www.gnu.org/licenses/gpl-3.0.html) - see the [LICENSE](LICENSE) file for details.
+
 ## Description
 
 Mondex is your ultimate Pokédex companion for exploring and storing information about Pokémon, items, moves, and more. Powered by the [PokeAPI](https://pokeapi.co/), Mondex offers a comprehensive database to satisfy your curiosity about the Pokémon universe.

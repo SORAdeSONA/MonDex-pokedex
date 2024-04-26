@@ -1,6 +1,10 @@
 # Mondex
 
-Mondex is a Pokédex app designed to explore and store creatures in a database. It allows users to explore Pokémon, items, moves, and more.
+Mondex is a Pokédex app designed to explore and store creatures in a database. It allows users to explore Pokémon, items, moves, and more. App uses [PokeAPI](https://pokeapi.co/)
+
+## Description 
+
+
 
 ## Stack
 
@@ -26,7 +30,7 @@ Mondex is built using the following technologies:
 
 - **LeakCanary (debug only)**: A memory leak detection library for Android, used in debug builds to automatically detect memory leaks and help identify and fix memory-related issues.
 
-## Description 
+
 
 
 

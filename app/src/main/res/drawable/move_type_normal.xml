@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="50dp" />
+    <gradient
+        android:endColor="#545A5E"
+        android:startColor="#545A5E" />
+    <stroke
+        android:width="3dp"
+        android:color="@color/pokemon_white" />
+</shape>

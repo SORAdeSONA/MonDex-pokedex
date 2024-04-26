@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/pokemon_blue"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <View
+        android:id="@+id/view7"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/dotted_line"
+        app:layout_constraintEnd_toEndOf="@+id/dark_mode"
+        app:layout_constraintStart_toStartOf="@+id/dark_mode"
+        app:layout_constraintTop_toBottomOf="@+id/dark_mode" />
+
+    <TextView
+        android:id="@+id/gmail"
+        style="@style/OtherTextStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="start"
+        android:padding="10dp"
+        android:text="@string/gmail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view7" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/title_header"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/pokemon_blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:padding="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/icon_back" />
+
+        <TextView
+            android:id="@+id/settings"
+            style="@style/OtherTextStyleBig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="settings"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btn_back"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/dark_mode"
+        style="@style/OtherTextStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="start"
+        android:padding="10dp"
+        android:text="theme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_header" />
+
+
+    <ImageView
+        android:id="@+id/dark_theme_button"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/dark_mode"
+        app:layout_constraintEnd_toEndOf="@+id/dark_mode"
+        app:layout_constraintTop_toTopOf="@+id/dark_mode"
+        app:srcCompat="@drawable/dark_theme_icon" />
+
+    <ImageView
+        android:id="@+id/light_theme_button"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/dark_mode"
+        app:layout_constraintEnd_toEndOf="@+id/dark_mode"
+        app:layout_constraintTop_toTopOf="@+id/dark_mode"
+        app:srcCompat="@drawable/light_theme_icon" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

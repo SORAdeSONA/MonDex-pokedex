@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MonDex</string>
+    <string name="hp">hp:</string>
+
+    <string name="gmail">Have ideas to make our app better?\n\nEmail us at <u>sdsvelop@gmail.com</u> to share them!</string>
+    <string name="copyright">This app is a fan-made creation and is not associated with or endorsed by the Pokémon Company.</string>
+    <string name="copyright2">All rights belong to Pokémon Company.\n\n©2024 Pokémon. ©1995 – 2024 Nintendo/Creatures Inc./GAME FREAK inc. TM, ®Nintendo.</string>
+    <string name="saved_pokemon">saved pokemon</string>
+    <string name="categories">categories</string>
+    <string name="search">search</string>
+    <string name="settings">settings</string>
+    <string name="filter_lists">filter lists</string>
+    <string name="create_new_list">create new list</string>
+    <string name="filter">filter</string>
+</resources>

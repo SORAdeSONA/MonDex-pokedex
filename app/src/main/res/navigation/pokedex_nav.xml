@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pokedex_nav"
+    app:startDestination="@id/main_pokedex_fragment">
+
+    <fragment
+        android:id="@+id/main_pokedex_fragment"
+        android:name="com.sds.pokemonguide.fragments.MainPokedexFragment"
+        android:label="List"
+        tools:layout="@layout/main_pokedex_fragment">
+
+        <action
+            android:id="@+id/action_main_pokedex_fragment_to_detail_pokedex_fragment"
+            app:destination="@id/detail_pokedex_fragment"
+
+            />
+
+        <action
+            android:id="@+id/action_main_pokedex_fragment_to_item_pokedex_fragment"
+            app:destination="@id/item_pokedex_fragment"
+
+            />
+
+        <action
+            android:id="@+id/action_main_pokedex_fragment_to_berrie_pokedex_fragment"
+            app:destination="@id/berry_detail_fragment"
+
+            />
+
+        <action
+            android:id="@+id/action_main_pokedex_fragment_to_ability_pokedex_fragment"
+            app:destination="@id/ability_pokedex_fragment"
+
+            />
+
+        <action
+            android:id="@+id/action_main_pokedex_fragment_to_move_pokedex_fragment"
+            app:destination="@id/move_pokedex_fragment"
+
+            />
+
+        <action
+            android:id="@+id/action_main_pokedex_fragment_to_category_pokedex_fragment"
+            app:destination="@id/category_pokedex_fragment"
+
+            />
+
+
+
+        <action
+            android:id="@+id/action_main_fragment_to_settings_fragment"
+            app:destination="@id/settings_fragment"
+
+            />
+
+        <action
+            android:id="@+id/action_main_fragment_to_saved_pokemons_fragment"
+            app:destination="@id/saved_pokemons_fragment"
+
+            />
+
+
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/detail_pokedex_fragment"
+        android:name="com.sds.pokemonguide.fragments.DetailPokedexFragment"
+        android:label="Detail"
+        tools:layout="@layout/detail_pokedex_fragment">
+
+
+        <action
+            android:id="@+id/action_detail_pokedex_fragment_to_main_pokedex_fragment"
+            app:destination="@id/main_pokedex_fragment" />
+
+        <action
+            android:id="@+id/action_detail_pokedex_fragment_to_move_pokedex_fragment"
+            app:destination="@id/move_pokedex_fragment" />
+
+        <action
+            android:id="@+id/action_detail_pokedex_fragment_to_item_pokedex_fragment"
+            app:destination="@id/item_pokedex_fragment" />
+
+        <action
+            android:id="@+id/action_detail_pokedex_fragment_to_ability_pokedex_fragment"
+            app:destination="@id/ability_pokedex_fragment" />
+
+        <action
+            android:id="@+id/action_detail_pokedex_fragment_to_habitat_pokedex_fragment"
+            app:destination="@id/pokemon_habitat_detail_fragment" />
+
+        <action
+            android:id="@+id/action_detail_pokedex_fragment_to_shape_pokedex_fragment"
+            app:destination="@id/pokemon_shape_detail_fragment" />
+
+        <action
+            android:id="@+id/action_detail_pokedex_fragment_to_type_pokedex_fragment"
+            app:destination="@id/pokemon_type_detail_fragment" />
+
+        <action
+            android:id="@+id/to_main_fragment"
+            app:destination="@id/main_pokedex_fragment" />
+
+        <action
+            android:id="@+id/action_detail_pokedex_fragment_to_detail_pokedex_fragment"
+            app:destination="@id/detail_pokedex_fragment" />
+
+
+
+        <argument
+            android:name="pokemonImage"
+            app:argType="string" />
+
+        <argument
+            android:name="isSearch"
+            app:argType="boolean" />
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/move_pokedex_fragment"
+        android:name="com.sds.pokemonguide.fragments.MovesDetailFragment"
+        android:label="Move"
+        tools:layout="@layout/move_detail_fragment">
+
+        <action
+            android:id="@+id/action_move_pokedex_fragment_to_detail_pokedex_fragment"
+            app:destination="@id/detail_pokedex_fragment" />
+
+        <action
+            android:id="@+id/action_move_pokedex_fragment_to_pokemon_type_pokedex_fragment"
+            app:destination="@id/pokemon_type_detail_fragment" />
+
+        <action
+            android:id="@+id/action_move_pokedex_fragment_to_move_category_pokedex_fragment"
+            app:destination="@id/move_category_detail_fragment" />
+
+        <action
+            android:id="@+id/action_move_pokedex_fragment_to_move_ailment_pokedex_fragment"
+            app:destination="@id/move_ailment_detail_fragment" />
+
+        <action
+            android:id="@+id/action_move_pokedex_fragment_to_move_target_pokedex_fragment"
+            app:destination="@id/move_target_detail_fragment" />
+
+        <action
+            android:id="@+id/to_main_fragment"
+            app:destination="@id/main_pokedex_fragment" />
+
+        <argument
+            android:name="moveId"
+            app:argType="string" />
+
+        <argument
+            android:name="isSearch"
+            app:argType="boolean" />
+
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/item_pokedex_fragment"
+        android:name="com.sds.pokemonguide.fragments.ItemsDetailFragment"
+        android:label="Item"
+        tools:layout="@layout/item_detail_fragment">
+
+        <action
+            android:id="@+id/action_item_pokedex_fragment_to_detail_pokedex_fragment"
+            app:destination="@id/detail_pokedex_fragment" />
+
+        <action
+            android:id="@+id/action_item_pokedex_fragment_to_attribute_pokedex_fragment"
+            app:destination="@id/attribute_pokedex_fragment" />
+
+        <action
+            android:id="@+id/action_item_pokedex_fragment_to_item_category_pokedex_fragment"
+            app:destination="@id/item_category_detail_fragment" />
+
+        <action
+            android:id="@+id/to_main_fragment"
+            app:destination="@id/main_pokedex_fragment" />
+
+        <argument
+            android:name="itemId"
+            app:argType="string" />
+
+        <argument
+            android:name="isSearch"
+            app:argType="boolean" />
+
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/attribute_pokedex_fragment"
+        android:name="com.sds.pokemonguide.fragments.AttributesFragment"
+        android:label="Attribute"
+        tools:layout="@layout/attribute_fragment">
+
+        <action
+            android:id="@+id/action_attribute_pokedex_fragment_to_item_pokedex_fragment"
+            app:destination="@id/item_pokedex_fragment"
+
+            />
+
+        <action
+            android:id="@+id/to_main_fragment"
+            app:destination="@id/main_pokedex_fragment" />
+
+        <argument
+            android:name="attributeId"
+            app:argType="string" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/ability_pokedex_fragment"
+        android:name="com.sds.pokemonguide.fragments.AbilitiesDetailFragment"
+        android:label="Ability"
+        tools:layout="@layout/ability_detail_fragment">
+
+        <action
+            android:id="@+id/action_attribute_pokedex_fragment_to_detail_pokedex_fragment"
+            app:destination="@id/detail_pokedex_fragment"
+
+            />
+
+        <action
+            android:id="@+id/to_main_fragment"
+            app:destination="@id/main_pokedex_fragment" />
+
+        <argument
+            android:name="abilityId"
+            app:argType="string" />
+
+        <argument
+            android:name="isSearch"
+            app:argType="boolean" />
+
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/category_pokedex_fragment"
+        android:name="com.sds.pokemonguide.fragments.CategoryPokedexFragment"
+        android:label="Category"
+        tools:layout="@layout/category_pokedex_fragment">
+
+        <action
+            android:id="@+id/action_category_pokedex_fragment_to_berry_firmness_detail_pokedex_fragment"
+            app:destination="@id/berry_firmness_detail_fragment"
+
+            />
+
+
+        <action
+            android:id="@+id/action_category_pokedex_fragment_to_berry_flavor_detail_pokedex_fragment"
+            app:destination="@id/berry_flavor_detail_fragment" />
+
+        <action
+            android:id="@+id/action_category_pokedex_fragment_to_type_detail_pokedex_fragment"
+            app:destination="@id/pokemon_type_detail_fragment"
+
+            />
+
+        <action
+            android:id="@+id/action_category_pokedex_fragment_to_gender_detail_pokedex_fragment"
+            app:destination="@id/pokemon_gender_detail_fragment"
+
+            />
+
+        <action
+            android:id="@+id/action_category_pokedex_fragment_to_egg_group_detail_pokedex_fragment"
+            app:destination="@id/pokemon_egg_group_detail_fragment"
+
+            />
+
+        <action
+            android:id="@+id/action_category_pokedex_fragment_to_habitat_detail_pokedex_fragment"
+            app:destination="@id/pokemon_habitat_detail_fragment"
+
+            />
+
+        <action
+            android:id="@+id/action_category_pokedex_fragment_to_shape_detail_pokedex_fragment"
+            app:destination="@id/pokemon_shape_detail_fragment"
+
+            />
+
+        <action
+            android:id="@+id/action_category_pokedex_fragment_to_move_ailment_pokedex_fragment"
+            app:destination="@id/move_ailment_detail_fragment"
+
+            />
+
+        <action
+            android:id="@+id/action_category_pokedex_fragment_to_move_category_pokedex_fragment"
+            app:destination="@id/move_category_detail_fragment"
+
+            />
+
+
+        <action
+            android:id="@+id/action_category_pokedex_fragment_to_move_damage_class_pokedex_fragment"
+            app:destination="@id/move_damage_class_detail_fragment"
+
+            />
+
+        <action
+            android:id="@+id/action_category_pokedex_fragment_to_move_target_pokedex_fragment"
+            app:destination="@id/move_target_detail_fragment"
+
+            />
+
+        <action
+            android:id="@+id/action_category_pokedex_fragment_to_item_attribute_pokedex_fragment"
+            app:destination="@id/item_attribute_detail_fragment"
+
+            />
+
+        <action
+            android:id="@+id/action_category_pokedex_fragment_to_item_category_pokedex_fragment"
+            app:destination="@id/item_category_detail_fragment"
+
+            />
+
+        <action
+            android:id="@+id/action_category_pokedex_fragment_to_item_fling_effect_pokedex_fragment"
+            app:destination="@id/item_fling_effect_detail_fragment"
+
+            />
+
+        <action
+            android:id="@+id/action_category_pokedex_fragment_to_item_pocket_pokedex_fragment"
+            app:destination="@id/item_pocket_detail_fragment"
+
+            />
+
+        <action
+            android:id="@+id/to_main_fragment"
+            app:destination="@id/main_pokedex_fragment" />
+
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/berry_firmness_detail_fragment"
+        android:name="com.sds.pokemonguide.fragments.BerryFirmnessFragment"
+        android:label="BerryFirmness"
+        tools:layout="@layout/berry_firmness_fragment">
+
+        <action
+            android:id="@+id/action_berry_firmness_pokedex_fragment_to_berry_detail_pokedex_fragment"
+            app:destination="@id/berry_detail_fragment" />
+
+        <action
+            android:id="@+id/to_main_fragment"
+            app:destination="@id/main_pokedex_fragment" />
+
+        <argument
+            android:name="url"
+            app:argType="string" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/berry_flavor_detail_fragment"
+        android:name="com.sds.pokemonguide.fragments.BerryFlavorFragment"
+        android:label="BerryFlavor"
+        tools:layout="@layout/berry_flavor_fragment">
+
+        <action
+            android:id="@+id/action_berry_flavor_pokedex_fragment_to_berry_detail_pokedex_fragment"
+            app:destination="@id/berry_detail_fragment"
+
+            />
+
+        <action
+            android:id="@+id/to_main_fragment"
+            app:destination="@id/main_pokedex_fragment" />
+
+
+        <argument
+            android:name="url"
+            app:argType="string" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/berry_detail_fragment"
+        android:name="com.sds.pokemonguide.fragments.BerryDetailFragment"
+        android:label="BerryDetail"
+        tools:layout="@layout/berry_detail_fragment">
+
+        <action
+            android:id="@+id/action_berry_detail_pokedex_fragment_to_berry_flavor_pokedex_fragment"
+            app:destination="@id/berry_flavor_detail_fragment"
+
+            />
+
+        <action
+            android:id="@+id/action_berry_detail_pokedex_fragment_to_berry_firmness_pokedex_fragment"
+            app:destination="@id/berry_firmness_detail_fragment"
+
+            />
+
+        <action
+            android:id="@+id/action_berry_detail_pokedex_fragment_to_item_detail_pokedex_fragment"
+            app:destination="@id/item_pokedex_fragment"
+
+            />
+
+        <action
+            android:id="@+id/to_main_fragment"
+            app:destination="@id/main_pokedex_fragment" />
+
+        <argument
+            android:name="berryId"
+            app:argType="string" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/pokemon_type_detail_fragment"
+        android:name="com.sds.pokemonguide.fragments.TypeDetailFragment"
+        android:label="TypeDetail"
+        tools:layout="@layout/type_detail_fragment">
+
+        <action
+            android:id="@+id/action_type_fragment_to_type_fragment"
+            app:destination="@id/pokemon_type_detail_fragment"
+
+            />
+
+        <action
+            android:id="@+id/action_type_fragment_to_pokemon_detail_fragment"
+            app:destination="@id/detail_pokedex_fragment"
+
+            />
+
+        <action
+            android:id="@+id/to_main_fragment"
+            app:destination="@id/main_pokedex_fragment" />
+
+        <argument
+            android:name="typeId"
+            app:argType="string" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/pokemon_gender_detail_fragment"
+        android:name="com.sds.pokemonguide.fragments.GenderDetailFragment"
+        android:label="GenderDetail"
+        tools:layout="@layout/gender_detail_fragment">
+
+        <action
+            android:id="@+id/action_gender_detail_pokedex_fragment_to_pokemon_detail_pokedex_fragment"
+            app:destination="@id/detail_pokedex_fragment"
+
+            />
+
+        <action
+            android:id="@+id/to_main_fragment"
+            app:destination="@id/main_pokedex_fragment" />
+
+        <argument
+            android:name="genderId"
+            app:argType="string" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/pokemon_egg_group_detail_fragment"
+        android:name="com.sds.pokemonguide.fragments.EggGroupFragment"
+        android:label="EggGroupDetail"
+        tools:layout="@layout/egg_group_fragment">
+
+        <action
+            android:id="@+id/action_egg_group_fragment_to_pokedex_detail_fragment"
+            app:destination="@id/detail_pokedex_fragment"
+
+            />
+
+        <action
+            android:id="@+id/to_main_fragment"
+            app:destination="@id/main_pokedex_fragment" />
+
+        <argument
+            android:name="eggGroupId"
+            app:argType="string" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/pokemon_habitat_detail_fragment"
+        android:name="com.sds.pokemonguide.fragments.HabitatDetailFragment"
+        android:label="HabitatDetail"
+        tools:layout="@layout/habitat_detail_fragment">
+
+        <action
+            android:id="@+id/action_habitat_fragment_to_pokedex_detail_fragment"
+            app:destination="@id/detail_pokedex_fragment"
+
+            />
+
+        <action
+            android:id="@+id/to_main_fragment"
+            app:destination="@id/main_pokedex_fragment" />
+
+        <argument
+            android:name="habitatId"
+            app:argType="string" />
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/pokemon_shape_detail_fragment"
+        android:name="com.sds.pokemonguide.fragments.ShapeDetailFragment"
+        android:label="ShapeDetail"
+        tools:layout="@layout/shape_detail_fragment">
+
+        <action
+            android:id="@+id/action_shape_fragment_to_pokedex_detail_fragment"
+            app:destination="@id/detail_pokedex_fragment"
+
+            />
+
+        <action
+            android:id="@+id/to_main_fragment"
+            app:destination="@id/main_pokedex_fragment" />
+
+        <argument
+            android:name="shapeId"
+            app:argType="string" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/move_ailment_detail_fragment"
+        android:name="com.sds.pokemonguide.fragments.MoveAilmentFragment"
+        android:label="MoveAilment"
+        tools:layout="@layout/move_ailment_fragment">
+
+        <action
+            android:id="@+id/action_move_ailment_fragment_to_move_pokedex_detail_fragment"
+            app:destination="@id/move_pokedex_fragment"
+
+            />
+
+        <action
+            android:id="@+id/to_main_fragment"
+            app:destination="@id/main_pokedex_fragment" />
+
+        <argument
+            android:name="moveAilmentId"
+            app:argType="string" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/move_category_detail_fragment"
+        android:name="com.sds.pokemonguide.fragments.MoveCategoryFragment"
+        android:label="MoveCategory"
+        tools:layout="@layout/move_category_fragment">
+
+        <action
+            android:id="@+id/action_move_category_fragment_to_move_pokedex_detail_fragment"
+            app:destination="@id/move_pokedex_fragment"
+
+            />
+
+        <action
+            android:id="@+id/to_main_fragment"
+            app:destination="@id/main_pokedex_fragment" />
+
+        <argument
+            android:name="moveCategoryId"
+            app:argType="string" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/move_damage_class_detail_fragment"
+        android:name="com.sds.pokemonguide.fragments.MoveDamageClassFragment"
+        android:label="MoveDamageClass"
+        tools:layout="@layout/move_damage_class_fragment">
+
+        <action
+            android:id="@+id/action_move_damage_class_fragment_to_move_pokedex_detail_fragment"
+            app:destination="@id/move_pokedex_fragment"
+
+            />
+
+        <action
+            android:id="@+id/to_main_fragment"
+            app:destination="@id/main_pokedex_fragment" />
+
+        <argument
+            android:name="moveDamageClassId"
+            app:argType="string" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/move_target_detail_fragment"
+        android:name="com.sds.pokemonguide.fragments.MoveTargetFragment"
+        android:label="MoveTarget"
+        tools:layout="@layout/move_target_fragment">
+
+        <action
+            android:id="@+id/action_target_fragment_to_move_pokedex_detail_fragment"
+            app:destination="@id/move_pokedex_fragment"
+
+            />
+
+        <action
+            android:id="@+id/to_main_fragment"
+            app:destination="@id/main_pokedex_fragment" />
+
+        <argument
+            android:name="moveTargetId"
+            app:argType="string" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/item_attribute_detail_fragment"
+        android:name="com.sds.pokemonguide.fragments.ItemAttributeFragment"
+        android:label="ItemAttribute"
+        tools:layout="@layout/item_attribute_fragment">
+
+        <action
+            android:id="@+id/action_item_attribute_fragment_to_item_pokedex_detail_fragment"
+            app:destination="@id/item_pokedex_fragment"
+
+            />
+
+        <action
+            android:id="@+id/to_main_fragment"
+            app:destination="@id/main_pokedex_fragment" />
+
+        <argument
+            android:name="itemAttributeId"
+            app:argType="string" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/item_category_detail_fragment"
+        android:name="com.sds.pokemonguide.fragments.ItemCategoryFragment"
+        android:label="ItemCategory"
+        tools:layout="@layout/item_category_fragment">
+
+        <action
+            android:id="@+id/action_item_category_fragment_to_item_pokedex_detail_fragment"
+            app:destination="@id/item_pokedex_fragment"
+
+            />
+
+        <action
+            android:id="@+id/action_item_category_fragment_to_pocket_pokedex_detail_fragment"
+            app:destination="@id/item_pocket_detail_fragment"
+
+            />
+
+        <action
+            android:id="@+id/to_main_fragment"
+            app:destination="@id/main_pokedex_fragment" />
+
+
+        <argument
+            android:name="itemCategoryId"
+            app:argType="string" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/item_fling_effect_detail_fragment"
+        android:name="com.sds.pokemonguide.fragments.ItemFlingEffectFragment"
+        android:label="ItemFlingEffect"
+        tools:layout="@layout/item_fling_effect_fragment">
+
+        <action
+            android:id="@+id/action_item_fling_effect_fragment_to_item_pokedex_detail_fragment"
+            app:destination="@id/item_pokedex_fragment"
+
+            />
+
+        <action
+            android:id="@+id/to_main_fragment"
+            app:destination="@id/main_pokedex_fragment" />
+
+        <argument
+            android:name="itemFlingEffectId"
+            app:argType="string" />
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/item_pocket_detail_fragment"
+        android:name="com.sds.pokemonguide.fragments.ItemPocketFragment"
+        android:label="ItemPocket"
+        tools:layout="@layout/item_pocket_fragment">
+
+        <action
+            android:id="@+id/action_item_pocket_fragment_to_item_item_category_detail_fragment"
+            app:destination="@id/item_category_detail_fragment"
+
+            />
+
+        <action
+            android:id="@+id/to_main_fragment"
+            app:destination="@id/main_pokedex_fragment" />
+
+        <argument
+            android:name="itemPocketId"
+            app:argType="string" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/settings_fragment"
+        android:name="com.sds.pokemonguide.fragments.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/settings_fragment">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/saved_pokemons_fragment"
+        android:name="com.sds.pokemonguide.fragments.SavedPokemonsFragment"
+        android:label="SavedPokemons"
+        tools:layout="@layout/saved_pokemons_fragment">
+
+        <action
+            android:id="@+id/action_saved_pokemons_fragment_to_pokemon_detail_fragment"
+            app:destination="@id/detail_pokedex_fragment" />
+
+        <action
+            android:id="@+id/action_saved_pokemons_fragment_to_item_detail_fragment"
+            app:destination="@id/item_pokedex_fragment" />
+
+        <action
+            android:id="@+id/action_saved_pokemons_fragment_to_berry_detail_fragment"
+            app:destination="@id/berry_detail_fragment" />
+
+        <action
+            android:id="@+id/action_saved_pokemons_fragment_to_move_detail_fragment"
+            app:destination="@id/move_pokedex_fragment" />
+
+        <action
+            android:id="@+id/action_saved_pokemons_fragment_to_custom_list_fragment"
+            app:destination="@id/custom_list_fragment" />
+
+
+
+
+        <action
+            android:id="@+id/to_main_fragment"
+            app:destination="@id/main_pokedex_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/custom_list_fragment"
+        android:name="com.sds.pokemonguide.fragments.CustomListFragment"
+        android:label="CustomList"
+        tools:layout="@layout/custom_list_layout">
+
+        <action
+            android:id="@+id/action_custom_list_fragment_to_detail_pokedex_fragment"
+            app:destination="@id/detail_pokedex_fragment" />
+
+        <action
+            android:id="@+id/to_main_fragment"
+            app:destination="@id/main_pokedex_fragment" />
+
+        <argument
+            android:name="listName"
+            app:argType="string" />
+
+        <argument
+            android:name="listDescription"
+            app:argType="string" />
+    </fragment>
+
+</navigation>

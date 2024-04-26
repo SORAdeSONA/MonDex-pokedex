@@ -2,16 +2,18 @@
 
 Mondex is your ultimate Pokédex companion for exploring and storing information about Pokémon, items, moves, and more. Powered by the [PokeAPI](https://pokeapi.co/), Mondex offers a comprehensive database to satisfy your curiosity about the Pokémon universe.
 
-Explore over 1000 Pokémon species, each with detailed stats, moves, types, evolution chains, and more.
-<img src="https://github.com/SORAdeSONA/MonDex-pokedex/assets/91389428/1fadeead-2e6e-40c4-9efb-a311cc080c02" width="300">
-<img src="https://github.com/SORAdeSONA/MonDex-pokedex/assets/91389428/ff843009-800e-4c5e-b211-a23d50fdae42" width="300">
-<img src="https://github.com/SORAdeSONA/MonDex-pokedex/assets/91389428/c10ba951-4f0a-4352-8c64-bec545a5e72c" width="300">
+**Explore over 1000 Pokémon species, each with detailed stats, moves, types, evolution chains, and more.**
 
-Search for Pokémon, items, moves, and berries using a classic search or by categories.
+<img src="https://github.com/SORAdeSONA/MonDex-pokedex/assets/91389428/1fadeead-2e6e-40c4-9efb-a311cc080c02" width="200">
+<img src="https://github.com/SORAdeSONA/MonDex-pokedex/assets/91389428/ff843009-800e-4c5e-b211-a23d50fdae42" width="200">
+<img src="https://github.com/SORAdeSONA/MonDex-pokedex/assets/91389428/c10ba951-4f0a-4352-8c64-bec545a5e72c" width="200">
 
-Add Pokémon, items, moves, and berries to your default list or create your own customized lists to organize your findings.
-<img src="https://github.com/SORAdeSONA/MonDex-pokedex/assets/91389428/33ee745e-670c-472f-b100-11ea38545f91" width="300">
-<img src="https://github.com/SORAdeSONA/MonDex-pokedex/assets/91389428/92752f86-0bf9-409b-9361-de066d4f7f9d" width="300">
+**Search for Pokémon, items, moves, and berries using a classic search or by categories.**
+
+**Add Pokémon, items, moves, and berries to your default list or create your own customized lists to organize your findings.**
+
+<img src="https://github.com/SORAdeSONA/MonDex-pokedex/assets/91389428/33ee745e-670c-472f-b100-11ea38545f91" width="200">
+<img src="https://github.com/SORAdeSONA/MonDex-pokedex/assets/91389428/92752f86-0bf9-409b-9361-de066d4f7f9d" width="200">
 
 ## Stack
 

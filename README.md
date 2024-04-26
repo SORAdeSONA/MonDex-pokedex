@@ -1,6 +1,6 @@
 # Mondex
 
-Mondex is a Pokédex app designed to explore and store creatures in a database. It allows users to explore Pokémon, items, moves, and more. App uses [PokeAPI](https://pokeapi.co/)
+Mondex is a Pokédex app designed to explore and store creatures in a database. It allows users to explore Pokémon, items, moves, and more. App uses [PokeAPI](https://pokeapi.co/).
 
 ## Description 
 
